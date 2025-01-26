@@ -1,0 +1,18 @@
+/* div { */
+  /* display: block; */
+  /* margin: 10px;
+  padding: 10px blue;
+  border: 10px solid black; */
+}
+
+span {
+  display: inline;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid gray;
+}
+
+div {
+    border: 20px solid black;
+    border-radius: 50%;
+}
