@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sustanabity calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <p class="priceBox"><span>0$</span></p>
+      </div>
+      <div class="right">
+        <form action="" id="dressPriceform">
+          <div class="buttonBox">
+            <h3>Selact an item</h3>
+            <label for="" class="button">
+              <input
+                type="radio"
+                name="item"
+                class="item"
+                data-price="3"
+                checked
+              />
+              Tshirt</label
+            >
+            <label for="" class="button">
+              <input type="radio" name="item" class="item" data-price="6" />
+              Shirt</label
+            >
+            <label for="" class="button">
+              <input type="radio" name="item" class="item" data-price="8" />
+              Demim</label
+            >
+
+            <div class="emblishment">
+              <h3>Select emblishments</h3>
+              <label for=""
+                ><input
+                  type="checkbox"
+                  class="emblishment"
+                  data-price="2"
+                  value="2"
+                />Print</label
+              >
+              <label for=""
+                ><input
+                  type="checkbox"
+                  class="emblishment"
+                  data-price="3"
+                  value="e"
+                />Embroydery</label
+              >
+              <label for=""
+                ><input
+                  type="checkbox"
+                  class="emblishment"
+                  data-price="2"
+                  value="2"
+                />patch</label
+              >
+              <label for=""
+                ><input
+                  type="checkbox"
+                  class="emblishment"
+                  data-price="1"
+                  value="1"
+                />Label Patch</label
+              >
+            </div>
+            <div>
+              <label for="Sustanabitymaterial"
+                ><h3>Select material Sustanabity</h3></label
+              >
+              <select name="" id="Sustanabitymaterial">
+                <option data-price="0" value="0">Conventional</option>
+                <option data-price="2" value="0">Organic</option>
+                <option data-price="3" value="0">Recycle</option>
+              </select>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

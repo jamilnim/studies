@@ -1,0 +1,7 @@
+#outPut {
+  box-sizing: border-box;
+  box-shadow: 10px black;
+  width: 500px;
+  height: fit-content;
+  border: 5px solid rgb(195, 221, 150);
+}
